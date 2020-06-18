@@ -1,0 +1,16 @@
+{
+  "name": "github-rename-default-branch",
+  "version": "1.0.0",
+  "description": "Rename default branch names for one or more of your personal github repositories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Adams <jon@kuokoa.studio>",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^7.2.0",
+    "node-fetch": "^2.6.0",
+    "opn": "^6.0.0"
+  }
+}
