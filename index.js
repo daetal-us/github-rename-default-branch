@@ -25,7 +25,7 @@ GH_TOKEN is unspecified in current environment.`);
         open(tokenURL);
       }
     }).finally(() => {
-      process.exit(1);
+      process.exit(0);
     });
   }
 
