@@ -1,6 +1,6 @@
 {
   "name": "github-rename-default-branch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Rename the default branch for all of your personal github repositories.",
   "main": "index.js",
   "scripts": {
