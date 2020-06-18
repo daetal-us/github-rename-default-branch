@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const inquire = require('inquirer');
 const fetch = require('node-fetch');
 const open = require('opn');
