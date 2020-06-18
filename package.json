@@ -1,9 +1,13 @@
 {
   "name": "github-rename-default-branch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Rename the default branch for all of your personal github repositories.",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "bin": {
+    "github-rename-default-branch": "./index.js"
   },
   "author": "Jon Adams <jon@kuokoa.studio>",
   "license": "MIT",
