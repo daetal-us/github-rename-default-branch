@@ -50,7 +50,7 @@ GH_TOKEN is unspecified in current environment.`);
 
   try {
     let { owner, repositories } = await fetchOwnerAndRepositories(to);
-    repositories = repositories.filter(r => r.defaultBranchRef);
+    repositories = repositories.filter(r => r.defaultBranchRef && r.defaultBranchRef === from);
     const count = repositories.length;
     console.info(`${count} repositor${count === 1 ? 'y' : 'ies'} found.`);
     await Promise.all(repositories.map(async repository => {
